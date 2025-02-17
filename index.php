@@ -27,12 +27,14 @@
 			const inputLastName = document.createElement("input");
 			inputLastName.type="text";
 			inputLastName.placeholder="Insert Last Name";
+			inputLastName.name="last_name";
 			
 			row2col1.append(inputLastName);
 			
 			const inputFirstName = document.createElement("input");
 			inputFirstName.type="text";
 			inputFirstName.placeholder="Insert First Name";
+			inputFirstName.name="first_name";
 			
 			row2col2.append(inputFirstName);
 			
